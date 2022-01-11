@@ -1,0 +1,10 @@
+#mainbox{
+    border: 10px solid crimson ;
+    width: auto;
+    margin-right: 30%;
+    margin-left: 50%;
+    margin-top: 20%;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
