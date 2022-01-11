@@ -22,9 +22,9 @@ tip=(billamt/10)*2;
 else{
    tip=(billamt/10)*3;
 }    
-  tipamount.textContent=tip; 
-  var tipeach=tip/nop;
-  alert(tipeach);
+  tipamount.textContent=tip/nop; 
+  //var tipeach=tip/nop;
+ // alert(tipeach);
     
 }
 
