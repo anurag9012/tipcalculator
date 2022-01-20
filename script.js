@@ -3,26 +3,29 @@ function tipfn(){
     //let experience= document.getElementById('exp').index;
     var experience=document.getElementById("exp");
     var tipamount=document.getElementById("tip");
-    
+    console.log(tipamount.textContent)
+
     var experienceindex=experience.selectedIndex;
     var experiencestatus=experience.options[experienceindex].value;
     var nop=document.getElementById("nop").value;
     
-
+    
     let tip=0;
     if(experiencestatus=="poor"){
         tip=0;
     }
-   else if(experiencestatus=="good"){
+    else if(experiencestatus=="good"){
         tip=billamt/10;
     }
-else if(experiencestatus=="better"){
-tip=(billamt/10)*2;
-}
-else{
-   tip=(billamt/10)*3;
-}    
-  tipamount.textContent=tip/nop; 
+    else if(experiencestatus=="better"){
+        tip=(billamt/10)*2;
+    }
+    else{
+        tip=(billamt/10)*3;
+    }    
+    tipamount.textContent=tip/nop;
+    tipamount.style.color='red' ;
+  tipamount.style.backgroundColor='yellow' ;
   //var tipeach=tip/nop;
  // alert(tipeach);
     
