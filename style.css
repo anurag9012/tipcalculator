@@ -1,6 +1,7 @@
 #mainbox{
     background-color: #edec4970;
-    border: 5px solid crimson ;
+    border: 5px solid black;
+    border-radius: 50 px;
     width: 300px;
    top: 10%;
     margin: auto;
